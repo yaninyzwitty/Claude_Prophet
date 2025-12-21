@@ -493,24 +493,6 @@ data/prophet_trader.db
 3. Add tool handler in `mcp-server.js`
 4. Test with Claude Code
 
-### Code Analysis with Cartogopher
-
-The codebase is indexed with Cartogopher for fast navigation:
-
-```bash
-# Search for symbols
-cartogopher search "PlaceOrder"
-
-# Get function details
-cartogopher symbol PlaceOrder
-
-# Find call relationships
-cartogopher related_to PlaceOrder
-
-# View code slice
-cartogopher slice services/alpaca_trading.go 56 80
-```
-
 ---
 
 ## Production Considerations
